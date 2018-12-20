@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="252dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorBlueJeans"
+        app:cardCornerRadius="10dp"
+
+        app:cardElevation="10dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="14dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/user_id"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="id:"
+                android:textColor="@color/colorWhite"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/show_userid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@id/user_id"
+                android:text="id"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:id="@+id/srs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_id"
+                android:layout_marginTop="10dp"
+                android:text="source:"
+                android:textColor="@color/colorWhite"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/show_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_id"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@id/srs"
+                android:text="source"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/dest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/srs"
+                android:layout_marginTop="10dp"
+                android:text="destination:"
+                android:textColor="@color/colorWhite"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/show_dest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/srs"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@id/dest"
+                android:text="source"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/nos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dest"
+                android:layout_marginTop="10dp"
+                android:text="no. of seats :"
+                android:textColor="@color/colorWhite"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/show_nos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dest"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@id/nos"
+                android:text="source"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/fare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nos"
+                android:layout_marginTop="10dp"
+                android:text="fare :"
+                android:textColor="@color/colorWhite"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/show_fare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nos"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@id/fare"
+                android:text="source"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

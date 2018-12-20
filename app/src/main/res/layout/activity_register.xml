@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="mobile"
+            android:textColorHint="@color/colorWhite"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:maxLength="10"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+
+            android:textColorHint="@color/colorWhite"
+
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="Password"
+            android:textColorHint="@color/colorWhite"
+
+            android:imeActionId="@+id/login"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite"
+            tools:ignore="InvalidImeActionId" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/sign_up_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorGrapeFruitDark"
+        android:text="Sign Up"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+
+    <!-- Link to Login Screen -->
+
+
+
+</LinearLayout>
+
+

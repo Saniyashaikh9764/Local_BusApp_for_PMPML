@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".timetableofkatraj">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/colorMintDark"
+
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_title"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Katraj - Shivajinagar (KS1)"
+                        android:textSize="26sp" />
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_katraj"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Katraj            - 8:00"
+                        android:textSize="22sp" />
+
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_balaji"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Balajinagar   - 8:10"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_swar"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Swargate      - 8:30"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_deccan"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Deccan         - 8:45"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_shivaji"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Shivajinagar - 9:00"
+                        android:textSize="22sp" />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/colorMintDark"
+
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_katpune"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Katraj - Nigadi(KN1)"
+                        android:textSize="26sp" />
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_kat"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Katraj            - 8:00"
+                        android:textSize="22sp" />
+
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_swargn"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Balajinagar   - 8:10"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_shivn"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Swargate      - 8:30"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_khadkin"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Deccan         - 8:45"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_pimpn"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Shivajinagar - 9:00"
+                        android:textSize="22sp" />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/colorMintDark"
+
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_katnig"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Katraj - Pune station (KP1)"
+                        android:textSize="26sp" />
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_pune_station"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Katraj            - 7:30"
+                        android:textSize="22sp" />
+
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_katbalaji"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Balajinagar   - 7:45"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_katswar"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Swargate      - 8:00"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_katraj_katshiv"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Shivajinagar         -8:30 "
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/timetable_punestat"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Pune Station - 9:00"
+                        android:textSize="22sp" />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

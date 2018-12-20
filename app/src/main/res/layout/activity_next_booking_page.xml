@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey"
+    android:orientation="vertical"
+    tools:context=".next_booking_page"
+
+    >
+
+    <TextView
+        android:id="@+id/activity_next_booking_bus_id_display"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Bus id"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:layout_below="@id/activity_next_booking_bus_id_display"
+        android:id="@+id/activity_next_booking_available_seats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:text="Total Available seats are"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/activity_next_booking_avail_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_toRightOf="@+id/activity_next_booking_available_seats"
+        android:text="25"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/activity_next_booking_available_seats"
+        android:id="@+id/activity_next_booking_enter_seats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Enter no.of seats to book(max10)"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:layout_below="@id/activity_next_booking_enter_seats"
+        android:id="@+id/activity_next_booking_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/seats_array"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:spinnerMode="dropdown"
+        />
+
+    <TextView
+        android:id="@+id/activity_next_booking_showing_seats"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_next_booking_enter_seats"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/activity_next_booking_spinner"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/activity_next_booking_spinner"
+        android:id="@+id/activity_next_booking_fare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:text="Your total fare is :  "
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/activity_next_booking_spinner"
+        android:id="@+id/total_fare"
+        android:layout_toRightOf="@id/activity_next_booking_fare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="total fair"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/activity_next_booking_button_confirm"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/activity_next_booking_fare"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="140dp"
+        android:background="@color/colorGrapeFruit"
+        android:text="Confirm"
+        android:textStyle="bold"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000000"/>
+
+
+
+</RelativeLayout>

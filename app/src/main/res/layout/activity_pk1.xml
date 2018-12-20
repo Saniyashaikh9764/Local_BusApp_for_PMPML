@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PK1">
+
+
+
+    <TextView
+        android:id="@+id/seatcount_textview_activity_pk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seats occupied"
+        android:layout_marginStart="80dp"
+        android:textSize="30sp"
+        android:layout_marginTop="140dp"
+        android:textColor="#000000"
+        />
+    <Button
+        android:id="@+id/pk1_activity_increase_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/seatcount_textview_activity_pk1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="#0288D1"
+        />
+    <Button
+        android:id="@+id/pk1_activity_decrement_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/seatcount_textview_activity_pk1"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/pk1_activity_increase_button"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginStart="120dp"
+        android:backgroundTint="#0288D1"
+        />
+
+    <Button
+        android:id="@+id/pk1_activity_reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@id/seatcount_textview_activity_pk1"
+        android:layout_marginStart="140dp"
+        android:backgroundTint="#0288D1"
+        />
+
+
+
+</RelativeLayout>

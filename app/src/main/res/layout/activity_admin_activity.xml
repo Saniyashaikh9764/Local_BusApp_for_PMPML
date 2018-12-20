@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/multi"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".admin_activity">
+
+    <TextView
+        android:id="@+id/textview_title_activity_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Login to BusTracker"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textIsSelectable="true"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview_subtitle_activity_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_title_activity_admin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Welcome !!!"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textIsSelectable="true"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/edittext_mobile_activity_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_subtitle_activity_admin"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:hint="Enter your ID"
+        android:textColor="@color/colorWhite"
+        android:inputType="text"
+        android:maxLength="4"
+        android:maxLines="1" />
+
+    <!-- android:layout_marginTop="20dp" -->
+    <EditText
+        android:id="@+id/edittext_password_activity_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext_mobile_activity_admin"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Password"
+        android:textColor="@color/colorWhite"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/button_login_activity_admin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext_password_activity_admin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="@color/colorGrapeFruit"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite" />
+
+
+</RelativeLayout>

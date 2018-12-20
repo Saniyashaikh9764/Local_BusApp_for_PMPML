@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home_page">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/activity_main_bus_tracker"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+                android:background="@drawable/bus2"
+                android:gravity="bottom"
+                android:text="BUS TRACKER"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="189dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorGrapeFruit"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/activity_main_booking"
+                        android:layout_width="match_parent"
+                        android:layout_height="79dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorGrapeFruitDark"
+                        android:padding="8dp"
+                        android:text="booking"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="182dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorBitterSweet"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/activity_main_cancellation"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorBitterSweetDark"
+                        android:padding="8dp"
+                        android:text="cancellation"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Second Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="216dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorGrass"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/activity_main_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorGrassDark"
+                        android:padding="8dp"
+                        android:text="location"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="235dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorBlueJeans"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/activity_home_page_timetable"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorBlueJeansDark"
+                        android:padding="8dp"
+                        android:text="Timetable"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- End Second Row-->
+            <!-- Third Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorMint"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:id="@+id/activity_main_seats"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorMintDark"
+                        android:padding="8dp"
+                        android:text="SEATS AVAILABLE"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- End Third Row-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

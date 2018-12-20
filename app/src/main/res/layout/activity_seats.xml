@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".seats">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+
+                    android:layout_centerHorizontal="true"
+                    android:background="?attr/colorPrimary"
+                    android:minHeight="?attr/actionBarSize"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="189dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorGrapeFruit"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/activity_seats_ks1"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:padding="8dp"
+                            android:text="KS1"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/seats_avail_count_ks1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:text="0"
+                            android:textColor="@color/colorWhite"
+
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="20sp"
+                            android:layout_centerInParent="true"
+
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="182dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBitterSweet"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:id="@+id/activity_seats_kn1"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:padding="8dp"
+                            android:text="KN1"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/seats_avail_kn1_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:text="0"
+                            android:textColor="@color/colorWhite"
+
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="20sp"
+                            android:layout_centerInParent="true"
+
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Second Row-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="216dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorGrass"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/activity_seats_kp1"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:padding="8dp"
+                            android:text="KP1"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/seats_avail_kp1_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:text="0"
+                            android:textColor="@color/colorWhite"
+
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="20sp"
+                            android:layout_centerInParent="true"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="235dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBlueJeans"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/activity_seats_nk1"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:padding="8dp"
+                            android:text="NK1"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/seats_avail_nk1_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:text="0"
+                            android:textColor="@color/colorWhite"
+
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="20sp"
+                            android:layout_centerInParent="true"
+
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <!-- End Second Row-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="189dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorGrapeFruit"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/activity_seats_ns1"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:padding="8dp"
+                            android:text="NS1"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/seats_avail_ns1_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:text="0"
+                            android:textColor="@color/colorWhite"
+
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="20sp"
+                            android:layout_centerInParent="true"
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="182dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBitterSweet"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:id="@+id/activity_seats_np1"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:padding="8dp"
+                            android:text="NP1"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/seats_avail_np1_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:text="0"
+                            android:textColor="@color/colorWhite"
+
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="20sp"
+                            android:layout_centerInParent="true"
+
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- End Third Row-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="189dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorGrass"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/activity_seats_pn1"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:padding="8dp"
+                            android:text="PN1"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/seats_avail_pn1_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:text="0"
+                            android:textColor="@color/colorWhite"
+
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="20sp"
+                            android:layout_centerInParent="true"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="182dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBlueJeans"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:id="@+id/activity_seats_pk1"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:padding="8dp"
+                            android:text="PK1"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/seats_avail_pk1_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:text="0"
+                            android:textColor="@color/colorWhite"
+
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="20sp"
+                            android:layout_centerInParent="true"
+
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorGrapeFruit"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/activity_seats_ps1"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:padding="8dp"
+                            android:text="PS1"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/seats_avail_ps1_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:text="0"
+                            android:textColor="@color/colorWhite"
+
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="20sp"
+                            android:layout_centerInParent="true"
+
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+

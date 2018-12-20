@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Booked tickets"
+        android:id="@+id/booked_tickets"/>
+
+    <item android:title="logout"
+        android:id="@+id/logout"/>
+    <item android:title="Admin_login"
+        android:id="@+id/admin_login"/>
+
+    <item android:title="About us"
+        android:id="@+id/about_us"/>
+
+
+
+</menu>

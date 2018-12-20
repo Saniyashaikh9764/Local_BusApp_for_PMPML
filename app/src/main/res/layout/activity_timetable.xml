@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Timetable">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_main_bus_tracker"
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:background="@drawable/bus2"
+        android:gravity="bottom"
+        android:text="Starting Sources"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="@color/colorMintDark"
+
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:textColor="@color/colorWhite"
+                android:id="@+id/timetable_katraj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="Katraj "
+                android:textSize="26sp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="@color/colorFlower"
+
+        app:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/timetable_nigadi"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorWhite"
+
+                android:text="Nigadi"
+                android:textSize="26sp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="@color/colorGrapeFruit"
+
+        app:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/timetable_punestation"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorWhite"
+
+                android:text="Pune station"
+                android:textSize="26sp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
